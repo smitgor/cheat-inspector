@@ -6,7 +6,6 @@ function App() {
   const [teamID, setTeamID] = useState("")
   const formHandler = e => {
     e.preventDefault()
-    console.log("processing.form", teamID)
   } 
 
   return (
@@ -18,7 +17,7 @@ function App() {
               a leveled playing field for all
             </h2>
             <h1 className="mb-6 text-2xl font-semibold tracking-tighter text-black sm:text-6xl title-font">
-              Hentry Dashboard
+              CheatInspector Dashboard
             </h1>
             <p className="mx-auto text-base font-medium leading-relaxed text-gray-700 lg:w-2/3"></p>
             <form onSubmit={formHandler} autoComplete="off">

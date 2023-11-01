@@ -27,9 +27,7 @@ const client = new Realtime({
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <AblyProvider client={client}>
-      <RouterProvider router={router} />
-    </AblyProvider>
-  </React.StrictMode>,
+  <AblyProvider client={client}>
+    <RouterProvider router={router} />
+  </AblyProvider>
 )

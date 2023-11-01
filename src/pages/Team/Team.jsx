@@ -13,7 +13,6 @@ function useQuery() {
 export default function Team() {
     const query = useQuery()
     const id = query.get("id")
-    console.log("id", query.get("id"))
     const [teamDetails, setTeamDetails] = useState({
         friendlyName: "friendlyName",
         id: "id",
@@ -21,9 +20,7 @@ export default function Team() {
     const [devices, setDevices] = useState([])
 
     useEffect(() => {
-        console.log("🚀 ~ file: Team.jsx:26 ~ getTeamDetailsById ~ ̥:", id)
         getTeamDetailsById(id).then(details => {
-            console.log(id, details)
             setTeamDetails({ friendlyName: details?.friendlyName, id: details.id })
             setDevices(details.devices)
         })
