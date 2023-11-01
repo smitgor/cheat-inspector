@@ -18,7 +18,7 @@ Cheat-Inspector consists of multiple components:
 - Cheat-Inspector-Dashboard : a responsive and dynamic single-page application build using React and TailWind CSS, designed in a monochrome and minimal UI to focus on important data. Also provisions realtime graphs which render live feed of project status.
 
 ## How we built it
-![Project Architecture](https://i.imgur.com/vI1FjQE.png)
+![Project Architecture](https://i.imgur.com/6plUsbM.png)
 
 
 Dashboard
