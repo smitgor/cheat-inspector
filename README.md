@@ -32,7 +32,7 @@ To deploy dashboard, run these commands
 ```
 git clone https://github.com/smitgor/cheat-inspector
 cd cheat-inspector
-npm i --lagacy-peer
+npm i --legacy-peer-deps
 npm run dev
 ```
 
