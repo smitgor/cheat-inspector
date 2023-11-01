@@ -21,7 +21,7 @@ const router = createBrowserRouter(
 )
 
 const client = new Realtime({
-  key: "J9x8VQ.hxM02Q:cuc5WSlCcdoR67M26mrJPBgsliG0zum2DJfIwsZNvn8",
+  key: "wUARoQ.XPGFtw:nPMKzrv2yfaVGYjMuhqogEfSNgDhf7_5xUv713k5zsU",
   clientId: "ajsbhjahbfjhaiunihu",  
 })
 
